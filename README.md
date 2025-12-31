@@ -83,6 +83,16 @@ Metrics are interpreted with attention to class imbalance and business cost trad
    ```
 3. Run notebooks in the order listed above
 
+## Data Access
+
+Due to GitHub file size limits, the preprocessed dataset is not stored directly in the repository.
+
+- **Raw data**: `data/churn.csv`
+- **Preprocessed data**:  
+  Download here → [churn_preprocessed.csv](https://github.com/0xNic11/customer-churn-ml/releases/download/v1.0-data/churn_preprocessed.csv)
+
+The preprocessed dataset is generated in a leakage-safe manner and matches the schema used in all notebooks.
+
 ## Notes for Reviewers
 This project is intentionally conservative.
 The goal is to demonstrate sound ML judgment and clarity of reasoning rather than advanced modeling tricks.
